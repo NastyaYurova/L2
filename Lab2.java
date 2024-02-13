@@ -17,7 +17,7 @@ public class Lab2 {
     private static final String baseUrl = "https://www.nmu.org.ua/ua/";
 
 
-    //@BeforeClass(alwaysRun = true)
+    @BeforeClass(alwaysRun = true)
     public void setUp() {
         WebDriverManager.chromedriver().setup();
         ChromeOptions chromeOptions = new ChromeOptions();
